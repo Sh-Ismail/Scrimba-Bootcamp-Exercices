@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+
+.france{
+    display: inline-block;
+    outline: 2px solid black;
+    height: 200px;
+    width: 300px;
+}
+.germany{
+    display: inline-block;
+    outline: 2px solid black;
+    height: 300px;
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.madagascar{
+    display: inline-block;
+    outline: 2px solid black;
+    height: 200px;
+    width: 300px;
+}
+.switzerland{
+    display: inline-block;
+    outline: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: red;
+}
+.sweden{
+    display: inline-block;
+    outline: 2px solid  black;
+    height: 500px;
+    width: 800px;
+    background-color: #002495;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.gambia{
+    display: inline-block;
+    outline: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+}
+.japan{
+    display: inline-block;
+    outline: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.niger{
+    display: inline-block;
+    height: 600px;
+    width: 700px;
+}
+
+.blue{
+    display: inline-block;
+    background-color: #002495;
+}
+.yellow2{
+    display: inline-block;
+    background-color: #FFCE00;
+}
+.red{
+    display: inline-block;
+    background-color: #ED2938;
+}
+.white{
+    display: inline-block;
+    background-color: #ffffff;
+}
+.white2{
+    display: inline-block;
+    background-color: #ffffff;
+}
+.black{
+    display: inline-block;
+    background-color: #000000;
+}
+.yellow{
+    display: inline-block;
+    background-color: #FFCE00;
+}
+.green{
+    display: inline-block;
+    background-color: #007E39;
+}
+.orange{
+    display: inline-block;
+    background-color: #E15307;
+}
+
+.france>.blue{
+
+    width: 100px;
+    height: 200px;
+}
+.france>.white{
+    
+    width: 100px;
+    height: 200px;
+}
+.france>.red{
+    
+    width: 100px;
+    height: 200px;
+}
+
+.germany>.black{
+    
+    width: 500px;
+    height: 100px;
+}
+.germany>.red{
+    
+    width: 500px;
+    height: 100px;
+}
+.germany>.yellow{
+    width: 500px;
+    height: 100px;
+}
+
+.madagascar>.white{
+
+    width: 100px;
+    height: 200px;
+}
+.madagascar>.red{
+    
+    position: relative;
+    bottom: 100px;
+    width: 200px;
+    height: 100px;
+}
+.madagascar>.green{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    width: 200px;
+    height: 100px;
+}
+.switzerland>.white{
+    position: relative;
+    left: 120px;
+    top: 50px;
+    width: 50px;
+    height: 200px;
+}
+
+.switzerland>.white2{
+    position: relative;
+    bottom: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+.sweden>.yellow{
+    position: relative;
+    top: 225px;
+    width: 800px;
+    height: 100px;
+}
+
+.sweden>.yellow2{
+    position: relative;
+    left:230px ;
+    bottom: 100px;
+    width: 100px;
+    height: 500px;
+}
+
+.gambia>.red{
+    width: 300px;
+    height: 60px;
+}
+.gambia>.blue{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+}
+.gambia>.green{
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.japan>.red{
+    position: relative;
+    color: #BC022C;
+    top: 25px;
+    left: 75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
