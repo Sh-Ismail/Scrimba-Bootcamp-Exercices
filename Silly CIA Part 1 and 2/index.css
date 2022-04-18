@@ -1,0 +1,38 @@
+.mainheadline{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.subheadline{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p{
+    line-height: 25px;
+    font-size: x-large;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.alsolike {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.image{
+    float: left;
+    padding: 20px;
+}
+
+li{
+    font-size: x-large;
+}
