@@ -1,0 +1,36 @@
+.main{
+    font-size: 90px;
+    text-align: right;
+    color: rgba(3, 53, 23, 0.7);
+}
+
+.mainp{
+    font-size: 20px;
+    padding: 40px;
+    text-decoration: wavy;
+}
+
+h2 {
+    text-align: center;
+    color:slategrey
+}
+
+.classified{
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    opacity: 0.5;
+    border-bottom: 10px;
+    border-top: none;
+    border-style: solid;
+    border-color: black;
+}
+
+.classi{
+    display: inline-block;
+    opacity: 0.5;
+    width: 49%;
+    border-bottom: 5px;
+    border-style: dashed;
+    border-color: rgb(0, 0, 0);
+}
